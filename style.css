@@ -1,0 +1,215 @@
+#body{
+    background-color: rgb(43, 90, 88);
+    border: solid  100px;
+    border-color: rgb(65, 223, 223);
+    height: 4100px;
+    width: 1500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200px;
+    font-size: large;
+}
+.box1{
+    background-color: darkcyan;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    color: aliceblue;
+    
+}
+.button1{
+    background-color: rgb(144, 122, 165);
+    border-radius: 5px;
+    padding: 8px;
+    color: aliceblue;
+}
+.button2{
+    background-color: rgb(11, 11, 83);
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;
+}
+.left{
+    display: flex;
+    gap: 50px;
+}
+.container2{
+    margin-left: 50px;
+    margin-top: 80px;
+    display: flex;
+}
+.image1{
+     margin-left: 300px;
+     margin-top: -80px;
+     place-content: centre;
+}
+.container3{
+    background-color: aliceblue;
+    height:400px ;
+    width: 1500px;
+}
+.box2{
+    text-align: center;
+}
+.box3{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.container4{
+    background-color: aliceblue;
+    height: 600px;
+    width: 1500px;
+}
+.box4{
+    display: flex;
+    justify-content: space-around;
+}
+.container5{
+    background-color: rgb(123, 240, 201);
+    height: 1000px;
+    width: 1500px;
+    text-align: center;
+
+}
+.container6{
+    background-color: aliceblue;
+    height: 1100px;
+    width: 1500px;
+}
+.box5{
+    display: flex;
+    justify-content: space-around;
+}
+.box6{
+    display: flex;
+    justify-content: space-around;
+}
+.box7{
+    background-color: rgb(43, 90, 88);
+    height: 350px;
+    width: 1100px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container7{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+@media screen and(max-width:1000px){
+
+    #body{
+        background-color: rgb(43, 90, 88);
+        border: solid  50px;
+        border-color: rgb(65, 223, 223);
+        height: 4100px;
+        width: 300px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 200px;
+        font-size: large;
+    }
+    .box1{
+        background-color: darkcyan;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .text{
+        color: aliceblue;
+        
+    }
+    .button1{
+        background-color: rgb(144, 122, 165);
+        border-radius: 5px;
+        padding: 5px;
+        color: aliceblue;
+    
+    }.button2{
+        background-color: rgb(11, 11, 83);
+        border-radius: 5px;
+        padding: 10px;
+        color: aliceblue;
+    }
+
+    .left{
+        display: flex;
+        gap: 50px;
+    }
+    .container2{
+        margin-left: 50px;
+        margin-top: 80px;
+        display: flex;
+    }
+    .image1{
+         margin-left: 300px;
+         margin-top: -80px;
+         place-content: centre;
+    }
+    .container3{
+        background-color: aliceblue;
+        height:400px ;
+        width: 300px;
+    }
+    .box2{
+        text-align: center;
+    }
+    .box3{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .container4{
+        background-color: aliceblue;
+        height: 600px;
+        width: 300px;
+    }
+    .box4{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container5{
+        background-color: rgb(123, 240, 201);
+        height: 1000px;
+        width: 300px;
+        text-align: center;
+    
+    }
+    .container6{
+        background-color: aliceblue;
+        height: 1100px;
+        width: 300px;
+    }
+    .box5{
+        display: flex;
+        justify-content: space-around;
+    }
+    .box6{
+        display: flex;
+        justify-content: space-around;
+    }
+    .box7{
+        background-color: rgb(43, 90, 88);
+        height: 350px;
+        width: 200px;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .container7{
+        display: flex;
+        justify-content: space-around;
+        padding: 60px;
+    }
+}
+
